@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'github-oauth'
-gem 'octokit'
-gem 'jquery-rails'
-gem 'rails', '3.2.13'
-gem 'haml'
+gem 'github-oauth', '>= 0.0.1'
+gem 'octokit', '>= 1.24.0'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'rails', '5.0.0'
+gem 'haml', '>= 5.0.0'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 5.0.5'
+  gem 'coffee-rails', '~> 4.1.1'
+  gem 'uglifier', '>= 2.7.2'
 end
 
 group :development do
@@ -19,7 +19,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.13.2'
   gem 'vcr'
   gem 'webmock'
   gem 'guard-rspec'
