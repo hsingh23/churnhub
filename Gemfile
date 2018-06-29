@@ -22,7 +22,7 @@ group :test do
   gem 'rspec-rails'
   gem 'vcr'
   gem 'webmock'
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 3.0.1'
   gem 'terminal-notifier-guard'
 end
 
