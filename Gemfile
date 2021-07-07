@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'github-oauth'
-gem 'octokit'
+gem 'octokit', '>= 1.24.0'
 gem 'jquery-rails'
 gem 'rails', '3.2.13'
 gem 'haml'
@@ -21,7 +21,7 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '>= 1.11.0'
   gem 'guard-rspec'
   gem 'terminal-notifier-guard'
 end
