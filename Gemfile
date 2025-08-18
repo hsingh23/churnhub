@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'github-oauth'
 gem 'octokit'
 gem 'jquery-rails'
-gem 'rails', '3.2.13'
+gem 'rails', '7.1.5.2'
 gem 'haml'
 
 group :assets do
