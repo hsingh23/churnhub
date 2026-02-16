@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'github-oauth'
-gem 'octokit'
+gem 'octokit', '>= 2.0.0'
 gem 'jquery-rails'
 gem 'rails', '3.2.13'
 gem 'haml'
